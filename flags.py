@@ -2,13 +2,14 @@
 # 👆 Sin lo de arriba no se puede poner emojis
 import pytz
 import datetime
+import sys
 
 # Esta es la hora local que asume:
-local_tz = pytz.timezone('America/Bogota')
+local_tz = pytz.timezone('Europe/Stockholm')
 
 # YYYY-MM-DD
 # Pon la fecha real o no entenderá cambios de horario (Como cuando Mexico y Colombia cambian 1h)
-date_to_convert = "2021-04-10 15:00:00"
+date_to_convert = sys.argv[1]
 # Recuerda: Es la hora de tu PC
 
 date_to_convert = datetime.datetime.strptime(
@@ -28,18 +29,9 @@ zones = [
     ["🇪🇸", "Europe/Madrid"],
     ["🇺🇾", "America/Montevideo"],
     ["🇪🇨", "America/Guayaquil"],
-    ["🇬🇹", "America/Guatemala"],
-    ["🇸🇻", "America/El_Salvador"],
     ["🇧🇴", "America/La_Paz"],
-    ["🇵🇾", "America/Asuncion"],
-    ["🇩🇴", "America/Santo_Domingo"],
-    ["🇵🇦", "America/Panama"],
-    ["🇨🇷", "America/Costa_Rica"],
-    ["🇭🇳", "America/Tegucigalpa"],
     ["🇻🇪", "America/Caracas"],
-    ["🇳🇮", "America/Managua"],
-    ["🇨🇺", "Cuba"],
-    ["🇺🇸", "US/Pacific"]
+    ["🇺🇸", "US/Pacific"],
 ]
 
 # Inicializamos el diccionario
