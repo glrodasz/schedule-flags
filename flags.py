@@ -21,17 +21,16 @@ print("")
 
 # En orden de tamaño de mercado/prioridad
 zones = [
-    ["🇲🇽", "America/Mexico_City"],
     ["🇨🇴", "America/Bogota"],
+    ["🇦🇷", "America/Buenos_Aires"],
+    ["🇲🇽", "America/Mexico_City"],
     ["🇵🇪", "America/Lima"],
     ["🇨🇱", "America/Santiago"],
-    ["🇦🇷", "America/Buenos_Aires"],
+    ["🇻🇪", "America/Caracas"],
+    ["🇧🇴", "America/La_Paz"],
+    ["🇪🇨", "America/Guayaquil"],
     ["🇪🇸", "Europe/Madrid"],
     ["🇺🇾", "America/Montevideo"],
-    ["🇪🇨", "America/Guayaquil"],
-    ["🇧🇴", "America/La_Paz"],
-    ["🇻🇪", "America/Caracas"],
-    ["🇺🇸", "US/Pacific"],
 ]
 
 # Inicializamos el diccionario
